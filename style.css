@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); /*header */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* ---------------------------------------------------------------------MAIN SETTINGS / HEADER-------------------------------------------------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.container-header{
+    background-color: #9C2482;
+    width: 1600px;
+    height: 90px;
+}
+
+.ul-header{
+    list-style: none;
+    gap: 64px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.menu>li>a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #F5F5F5;
+}
+
+.img-res{
+    image-resolution: 100%;
+    width: 90px;
+    height: 50px;
+}
+
+.header-wrap{
+    justify-content: space-between;
+    align-items: center; 
+    padding-left: 90px;
+    padding-top: 18px;
+}
+
+.nav-menu{
+    align-items: center;
+    gap: 64px;
+    margin-right: 133px;
+}
+
+/* .nav-wrap{
+    gap: 64px;
+    align-items: center;
+    justify-content: center;
+} */
+
+.button{
+    border: 1px solid #F5F5F5;
+    width: 269px;
+    height: 54px;
+    margin-right: 90px;
+}
+
+.txt-in-btn-header{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Montserrat', serif;
+    text-decoration: none;
+    text-wrap: nowrap;
+    color: #F5F5F5;
+    width: 164px;
+    height: 32px;
+    padding-top: 11px;
+    padding-left: 10px;
+}
+
+/* ---------------------------------------------------------------------main-1-salon-krasy-------------------------------------------------------------------------------- */
+
+.main-1-main{
+    background-image: url(./images/main-1-salon-krasy/Rectangle\ 4.png);
+    width: 1600px;
+    height: 693px;
+}
+
+.box-main-1{
+    width: 609px;
+    height: 230px;
+    padding-left: 90px;
+    padding-top: 205px;
+}
+
+.p-main-1-1{
+    font-size: 54px;
+    line-height: 85px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: #9C2482;
+
+}
+
+.p-main-1-2{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: 'Montserrat', serif;
+    text-decoration: none;
+    color: #524848;
+    width: 459px;
+    margin-bottom: 20px;
+}
+
+.button-main-1{
+    width: 268px;
+    height: 54px;
+    background-color: #9C2482;
+    text-align: center;
+}
+
+.p-main-1-3{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    font-family: 'Montserrat', serif;
+    color: #F5F5F5;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+.txt-small-main-1{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 700;
+    font-family: 'Montserrat', serif;
+    color: #524848;
+}
+
+/* -- ---------------------------------------------------------------------main-2-About-us-------------------------------------------------------------------------------- -- */
+.main-2-About-us{
+    width: 1600px;
+    height: 627;
+}
+
+.div-ab-us{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.ab-us{
+    font-size: 40px;
+    line-height: 64px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: #9C2482;
+}
+
+.p-main-2-in-1{
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: #121212;
+    width: 478px;
+
+}
+
+.p-main-2-in-2{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: 'Montserrat', serif;
+    width: 447px;
+}
+
+.button-main-2{
+    width: 268px;
+    height: 54px;
+    background-color: #9C2482;
+    text-align: center;
+}
+
+.p-main-2-in-3{
+    font-size: 18px;
+    line-height: 28.8px;
+    font-weight: 700;
+    font-family: 'Montserrat', serif;
+    color: #F5F5F5;
+    padding-top: 13px;
+}
+
+.txt-main-2-in{
+    margin-left: 50px;
+}
+
+/* -- ---------------------------------------------------------------------main-3-Advantages-------------------------------------------------------------------------------- -- */
+
+.main-3-Advantages{
+    width: 1600px;
+    height: 531px;
+    margin: 0 auto;
+}
+
+.div-Advantages{
+    margin-top: 80.7px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Advantages{
+    font-size: 40px;
+    line-height: 64px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: #9C2482;
+}
+
+.line-1-main-3{
+    gap: 245px;
+    margin-bottom: 20.5px;
+}
+
+.line-3-main-3{
+    gap: 48px;
+}
+
+.txt-main-3-3list{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: 'Montserrat', serif;
+    width: 290px;
+}
+
+/* .line-2-main-3{
+    gap: 258px;
+} */
+
+.hr-main-3{
+    width: 1600px;
+    height: 0px;
+    border: 1px solid #9C2482;
+    color: #9C2482;
+    background-color: #9C2482;
+}
+
+.txt-main-3-2list{
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 500;
+    font-family: 'Montserrat', serif;
+    color: #121212;
+}
+
+
+/* .cont1-main-3{
+    width: 290px;
+    height: 268px;
+    margin-left: 150px;
+    border: 1px solid #000000;
+    text-align: center;
+} */
+
+/* -- ---------------------------------------------------------------------main-4-Services-------------------------------------------------------------------------------- -- */
+
+.main-4-Services{
+    width: 1420px;
+    height: 510px;
+    border: 1px solid #000000;
+    position: relative;
+}
+
+.Services-text{
+    text-align: center;
+}
+
+.Services{
+    font-size: 40px;
+    line-height: 64px;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    color: #9C2482;
+}
+
+.main-4-main{
+    margin-top: 24px;
+}
+
